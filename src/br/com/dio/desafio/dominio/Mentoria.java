@@ -11,9 +11,6 @@ public class Mentoria extends Conteudo{
         return XP_PADRAO + 20d;
     }
 
-    public Mentoria() {
-    }
-
     public LocalDate getData() {
         return data;
     }
@@ -27,7 +24,7 @@ public class Mentoria extends Conteudo{
         return "Mentoria{" +
                 "titulo='" + getTitulo() + '\'' +
                 ", descricao='" + getDescricao() + '\'' +
-                ", data=" + data +
+                ", data=" + getData() +
                 '}';
     }
 }
